@@ -14,10 +14,10 @@
 #define MAX_ADAPTER_LEN 100
 
 const char* usage=
-"usage: fastx_trimmer [-h] [-f N] [-l N] [-t N] [-m MINLEN] [-z] [-v] [-i INFILE] [-o OUTFILE]\n" \
+"usage: fastxCropper [-h] [-f N] [-l N] [-t N] [-m MINLEN] [-z] [-v] [-i INFILE] [-o OUTFILE]\n" \
 "By Wenchao Lin (linwenchao@yeah.net)\n" \
 "\n" \
-"   [-h]         = This helpful help screen.\n" \
+"   [-h]         = This help screen.\n" \
 "   [-f N]       = First base to keep. Default is 1 (=first base).\n" \
 "   [-l N]       = Last base to keep. Default is entire read.\n" \
 "   [-t N]       = Trim N nucleotides from the end of the read.\n" \
